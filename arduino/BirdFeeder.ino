@@ -206,6 +206,8 @@ bool DetectIR()
 				Serial.print(i);
 				Serial.print(" : ");
 				Serial.print(rate);
+				Serial.print(" > ");
+				Serial.print(rateThreshold[i]);
 				Serial.print(" : ");
 				Serial.println(millis());
 
